@@ -11,9 +11,12 @@
 
 **Update on bugs**
 
-- index.jsx has call out to search.js and passed through the {term} as their argument
-- in search.js, where does it capture the {term}/ query?
-- in Guardian Documentation link - the query term they use is q
+focus on:
+
+1. getting the "term" from the request (how to get query parameter from request in next.js)
+2. with the search term you now have from above, how do you talk to Guardian API to give it the "term" to give you the relevant results
+3. In the Documentation in Guardian, q is the keyword for searching query.
+4. in next.js, req.query is the keyword for searching query.
 
 **learning process**
 
@@ -32,5 +35,8 @@
 2. Axios - one of the promise-based library - make fetch request easier, support older browsers, increase accessibility to user experience
 
 **Bonus task if there's time :)**
+
+1. Disabled search button when term input is less than 2 letters.
+2. try refractor the codes
 
 ## YOU CAN DO IT!
