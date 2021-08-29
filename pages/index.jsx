@@ -20,7 +20,7 @@ const IndexPage = () => {
       <h1>Guardian Search</h1>
       <div>
         <input value={term} onChange={(evt) => setTerm(evt.target.value)} />
-        <button onClick={() => doSearch()} disabled={term.length < 2}>
+        <button onClick={() => doSearch()} disable={term.length < 2}>
           Search
         </button>
       </div>
