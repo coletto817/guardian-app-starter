@@ -80,3 +80,7 @@ GIT COMMIT!
    - Can I get a general overview of how the program works prior?
    - watched: https://www.youtube.com/watch?v=mTz0GXj8NN0
    - How does the API from our local server communicate with API from Guardian?
+
+
+3. Thumbnail - how do I render that?
+    
