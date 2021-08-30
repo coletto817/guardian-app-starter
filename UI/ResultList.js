@@ -1,7 +1,12 @@
 import React from "react";
 
-const ResultList = ({ resultItem }) => {
-  <li>{resultItem}</li>;
+const ResultList = ({ resultItem, index }) => {
+  return (
+    <div key={index}>
+      <img src={resultItem.image} />
+      <a href={resultItem.url}>{resultItem.title}</a>
+    </div>
+  );
 };
 
 export default ResultList;

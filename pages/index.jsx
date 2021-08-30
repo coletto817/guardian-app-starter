@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import ResultList from "../UI/ResultList";
 import axios from "axios";
 
 const IndexPage = () => {
@@ -26,15 +27,10 @@ const IndexPage = () => {
       </div>
       <div>
         <h2>Results</h2>
-        <ul>
-          {results.map((result) => {
-            return (
-              <li key={result.title}>
-                <a href={result.url}>{result.title}</a>
-              </li>
-            );
-          })}
-        </ul>
+
+        {results.map((result, index) => (
+          <ResultList resultItem={result} key={index} />
+        ))}
       </div>
     </div>
   );

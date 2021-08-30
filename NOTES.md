@@ -28,7 +28,7 @@
 
 1. What is .env file?
 
-- file lets you customize your individual working environment variables
+- file lets you customize your individual working environment variables for your application to consume in different environment.
 - store API in there, and ensure the file in included in gitignore - so it won't be uploaded and push to gitHub
 - read more: https://www.pluralsight.com/guides/how-to-store-and-read-configuration-files-using-react
 
@@ -40,7 +40,9 @@
 
 2. Add images to each result. (show-fields=thumbnail) - ??
 
-   - How do I incorporate this into the http request or URL request?
+   - How do I incorporate this into the http request or URL request? (stackoverflow)
+   - Using Postman to check API req and res.
+   - pass it as parameter like the term?
 
 3. Refactoring codes into smaller chunk to increase reusability/ maintainability.
 
@@ -50,7 +52,31 @@
 
 4. Grid layout of cards for search result
 
+   - https://nextjs.org/docs/basic-features/built-in-css-support (...Create a pages/\_app.js file if not already present. Then, import the styles.css file.)
+
+5.
+
 ## YOU CAN DO IT!
 
 **REMINDER**
 GIT COMMIT!
+
+**Challenges**
+
+1. getting the project running on my local machine
+
+   **ERROR MESSAGE**
+   Installing template dependencies using yarnpkg...
+   yarn add v1.22.4
+   [1/4] 🔍 Resolving packages...
+   [2/4] 🚚 Fetching packages...
+   error jest-diff@27.0.6: The engine "node" is incompatible with this module. Expected version "^10.13.0 || ^12.13.0 || ^14.15.0 || >=15.0.0". Got "14.6.0"
+   error Found incompatible module.
+
+   - researched how to switch the node version on my local machine
+   - resolved it by using node version manager
+
+2. Trying to understand Next.js and how the program works (there's pages and API folder)
+   - Can I get a general overview of how the program works prior?
+   - watched: https://www.youtube.com/watch?v=mTz0GXj8NN0
+   - How does the API from our local server communicate with API from Guardian?
