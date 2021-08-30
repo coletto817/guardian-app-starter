@@ -1,4 +1,5 @@
 import React from "react";
+import Styl
 
 const ResultList = ({ resultItem, index }) => {
   return (
