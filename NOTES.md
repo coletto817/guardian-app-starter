@@ -11,7 +11,7 @@
 
 **Update on bugs**
 
-focus on:
+## focus on:
 
 1. getting the "term" from the request (how to get query parameter from request in next.js)
 2. with the search term you now have from above, how do you talk to Guardian API to give it the "term" to give you the relevant results
@@ -32,11 +32,25 @@ focus on:
 - store API in there, and ensure the file in included in gitignore - so it won't be uploaded and push to gitHub
 - read more: https://www.pluralsight.com/guides/how-to-store-and-read-configuration-files-using-react
 
-2. Axios - one of the promise-based library - make fetch request easier, support older browsers, increase accessibility to user experience
+2. Axios - one of the promise-based library - make http request easier, support older browsers, increase accessibility to user experience
 
 **Bonus task if there's time :)**
 
 1. Disabled search button when term input is less than 2 letters.
-2. try refractor the codes
+
+2. Add images to each result. (show-fields=thumbnail) - ??
+
+   - How do I incorporate this into the http request or URL request?
+
+3. Refactoring codes into smaller chunk to increase reusability/ maintainability.
+
+   - structuring folders structure into components and UI
+
+   * Component names always start with Capital. (i.e. <Welcome />)
+
+4. Grid layout of cards for search result
 
 ## YOU CAN DO IT!
+
+**REMINDER**
+GIT COMMIT!

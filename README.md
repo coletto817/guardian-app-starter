@@ -6,7 +6,7 @@
 - Rename `.env.dist` to `.env` and add your guardian api key
 - (In a terminal window) Run `npm start` to start server.
 
-## Firstly
+## Firstly **COMPLETED**
 
 You should then be able to browse to `http://localhost:3000` and see our beautiful application screen. You should be able to type some words into the box, hit search, and get a set of results back.
 
@@ -20,8 +20,8 @@ There is no expectation to get through all, or even most of these, but if you fe
 
 - All of the app is in one component in index.jsx, which is a bit weird. It would be good to start refactoring the app into separate components for reusability/maintainability. Make a top level components folder and start extracting individual components into there.
 
-- We don't like that you can submit an empty search field. Please make it so that it won't search until you've typed something in
-  Solution: (by setting the minimal input on term.length)
+**COMPLETED**
+We don't like that you can submit an empty search field. Please make it so that it won't search until you've typed something in
 
 - Oh and also, we should probably stop people hitting submit again until the last result has been displayed. Even better if it can show a 'loading...' message or [spinner](https://loading.io/) while it loads.
 
