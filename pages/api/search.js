@@ -9,6 +9,7 @@ const searchHandler = async (req, res) => {
       params: {
         "api-key": process.env.GUARDIAN_API_KEY,
         q: req.query.term,
+        "show-fields": "thumbnail",
       },
     }
   );
@@ -17,6 +18,8 @@ const searchHandler = async (req, res) => {
     return {
       title: result.webTitle,
       url: result.webUrl,
+      image: result.fields.thumbnail,
+      id: result.id,
     };
   });
   res.status(200).json(apiResults);

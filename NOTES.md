@@ -77,10 +77,11 @@ GIT COMMIT!
    - resolved it by using node version manager
 
 2. Trying to understand Next.js and how the program works (there's pages and API folder)
+
    - Can I get a general overview of how the program works prior?
    - watched: https://www.youtube.com/watch?v=mTz0GXj8NN0
    - How does the API from our local server communicate with API from Guardian?
 
+3. Thumbnail - results.fields.
 
-3. Thumbnail - how do I render that?
-    
+lint - debugging tool - tells you where unused variable/ bad design pattern

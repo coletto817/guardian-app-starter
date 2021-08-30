@@ -1,8 +1,9 @@
 import React from "react";
 
-const ResultList = ({ resultItem, index }) => {
+const ResultList = ({ resultItem }) => {
   return (
-    <div key={index}>
+    <div>
+      <img src={resultItem.image} />
       <a href={resultItem.url}>{resultItem.title}</a>
     </div>
   );

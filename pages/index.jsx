@@ -27,8 +27,8 @@ const IndexPage = () => {
       </div>
       <div>
         <h2>Results</h2>
-        {results.map((result, index) => (
-          <ResultList resultItem={result} key={index} />
+        {results.map((result) => (
+          <ResultList resultItem={result} key={result.id} />
         ))}
       </div>
     </div>
