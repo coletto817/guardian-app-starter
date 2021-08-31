@@ -22,7 +22,8 @@
 
 1. learning next.js (how does the pages communicated with each other?) - jsx is the front end page, and the api is backend.
 2. index.jsx will communicate with /api/search to allow the communication of the server -> Guardian API
-3.
+3. In between local and external server - the "middleman" is called the middleware, the function helps fetch the request and receive a response from external source.
+4. Why we seperate the api request - for business utility purpose and security!
 
 **New finds**
 
@@ -33,6 +34,7 @@
 - read more: https://www.pluralsight.com/guides/how-to-store-and-read-configuration-files-using-react
 
 2. Axios - one of the promise-based library - make http request easier, support older browsers, increase accessibility to user experience
+3. lint - debugging tool - tells you where unused variable/ bad design pattern
 
 **Bonus task if there's time :)**
 
@@ -82,6 +84,4 @@ GIT COMMIT!
    - watched: https://www.youtube.com/watch?v=mTz0GXj8NN0
    - How does the API from our local server communicate with API from Guardian?
 
-3. Thumbnail - results.fields.
-
-lint - debugging tool - tells you where unused variable/ bad design pattern
+3. Thumbnail - results.fields.thumbnail
