@@ -54,7 +54,11 @@
 
 4. Grid layout of cards for search result
 
-   - https://nextjs.org/docs/basic-features/built-in-css-support (...Create a pages/\_app.js file if not already present. Then, import the styles.css file.)
+   - https://nextjs.org/docs/basic-features/built-in-css-support
+   - (...Create a pages/\_app.js file if not already present. Then, import the styles.css file.) - DIDNT WORK lol
+   - error - ./styles/styles.css
+     Global CSS cannot be imported from files other than your Custom <App>. Please move all global CSS imports to pages/\_app.js. Or convert the import to Component-Level CSS (CSS Modules).
+   - Keywords: move ALL glocal CSS imports to pages/\_app.js OR convert import to component-level.(https://nextjs.org/docs/messages/css-global, second options is the preferred approach)
 
 5.
 
@@ -84,4 +88,16 @@ GIT COMMIT!
    - watched: https://www.youtube.com/watch?v=mTz0GXj8NN0
    - How does the API from our local server communicate with API from Guardian?
 
-3. Thumbnail - results.fields.thumbnail
+3. Thumbnail - results.fields.thumbnail (resolved with Rick)
+
+   - Pass "show-fields": "thumbnail"!!! -> Double quotes required as it is being passed as variable in string type!
+   -
+
+4. Props validation - research.
+
+**RESOLVED**
+
+1. Initital task of returning relevant results
+2. Disabled search button when input field is empty or less than 2 letters
+3. Render image
+4.

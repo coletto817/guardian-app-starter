@@ -17,11 +17,15 @@ const IndexPage = () => {
   };
 
   return (
-    <div>
+    <div className="container">
       <h1>Guardian Search</h1>
       <div>
         <input value={term} onChange={(evt) => setTerm(evt.target.value)} />
-        <button onClick={() => doSearch()} disabled={term.length < 2}>
+        <button
+          className="searchButton"
+          onClick={() => doSearch()}
+          disabled={term.length < 2}
+        >
           Search
         </button>
       </div>
