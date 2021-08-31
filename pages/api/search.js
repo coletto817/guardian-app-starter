@@ -20,6 +20,7 @@ const searchHandler = async (req, res) => {
       url: result.webUrl,
       image: result.fields.thumbnail,
       id: result.id,
+      date: result.webPublicationDate,
     };
   });
   res.status(200).json(apiResults);

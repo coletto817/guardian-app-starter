@@ -1,10 +1,12 @@
 import React from "react";
+import PropTypes from "prop-types";
 
 const ResultList = ({ resultItem }) => {
   return (
     <div>
       <img src={resultItem.image} />
       <a href={resultItem.url}>{resultItem.title}</a>
+      <div>{resultItem.date}</div>
     </div>
   );
 };

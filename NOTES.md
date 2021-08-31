@@ -34,7 +34,7 @@
 - read more: https://www.pluralsight.com/guides/how-to-store-and-read-configuration-files-using-react
 
 2. Axios - one of the promise-based library - make http request easier, support older browsers, increase accessibility to user experience
-3. lint - debugging tool - tells you where unused variable/ bad design pattern
+3. lint - debugging tool - tells you where unused variable/ bad design pattern - https://eslint.org/
 
 **Bonus task if there's time :)**
 
