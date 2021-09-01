@@ -22,6 +22,7 @@ const IndexPage = () => {
       <h1>Guardian Search</h1>
       <div>
         <input value={term} onChange={(evt) => setTerm(evt.target.value)} />
+        <Button />
         <button
           className="searchButton"
           onClick={() => doSearch()}
