@@ -28,7 +28,6 @@ const IndexPage = () => {
           disabled={term.length < 2}
         >
           Search
-          <Button />
         </button>
       </div>
       <div>
