@@ -54,11 +54,12 @@
 
 4. Grid layout of cards for search result
 
+   - inline-style works! but messy!
    - https://nextjs.org/docs/basic-features/built-in-css-support
    - (...Create a pages/\_app.js file if not already present. Then, import the styles.css file.) - DIDNT WORK lol
    - error - ./styles/styles.css
      Global CSS cannot be imported from files other than your Custom <App>. Please move all global CSS imports to pages/\_app.js. Or convert the import to Component-Level CSS (CSS Modules).
-   - Keywords: move ALL glocal CSS imports to pages/\_app.js OR convert import to component-level.(https://nextjs.org/docs/messages/css-global, second options is the preferred approach)
+   - Keywords: move ALL glocal CSS imports to pages/\_app.js OR convert import to component-level.(https://nextjs.org/docs/messages/css-global, second option is the preferred approach)
 
 5.
 

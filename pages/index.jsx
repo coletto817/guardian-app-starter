@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import ResultList from "../UI/ResultList";
+import Button from "../components/button";
 import axios from "axios";
 
 const IndexPage = () => {
@@ -27,6 +28,7 @@ const IndexPage = () => {
           disabled={term.length < 2}
         >
           Search
+          <Button />
         </button>
       </div>
       <div>
